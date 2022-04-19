@@ -3,7 +3,7 @@ import random
 answer=random.randint(0,100)
 user_try=0
 max_count=10
-print(answer)
+
 while user_try!=max_count:
     user_try+=1
     user_answer=int(input('Введите число от 0 до 100 '))
