@@ -1,4 +1,4 @@
-mass1=[7,2,4,3,8,5,6 ] #[7,8,4,3,2,5,6]
+mass1=[7,2,4,3,8,5,6 ]
 max_m=mass1[0]
 min_m=mass1[0]
 for m in mass1:

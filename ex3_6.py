@@ -1,4 +1,4 @@
-mass=[8,9,2,5,8,7,1,3]
+mass=[1,2,2,9,8,7,1,3]
 max=None
 min=None
 summ=0
@@ -6,7 +6,7 @@ for m in mass:
     if max==None and min==None:
         max=m
         min=m
-    if m>max:
+    elif m>max:
         max=m
     elif m<min:
         min=m
